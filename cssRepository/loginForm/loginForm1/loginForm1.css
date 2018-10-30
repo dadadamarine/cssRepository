@@ -1,3 +1,7 @@
+html{
+    width:100%;
+    height:100%;
+}
 body{
     width:100%;
     height:100%;
@@ -58,5 +62,29 @@ h1{
     height:40px;
     color:#fff;
     font-size:1rem;
+}
 
+.loginbox input[type="submit"]{
+    border:none;
+    outline: none;
+    height:40px;
+    background: #fb2525;
+    color:#fff;
+    font-size:1.1rem;/* 1rem = 16px */
+    border-radius:1.2rem;
+}
+.loginbox input[type="submit"]:hover{
+    cursor: pointer;
+    background:#ffc107;
+    color:#000;
+    transition: all 0.2s 
+}
+.loginbox a{
+    text-decoration: none;
+    font-size : 0.8rem;
+    line-height: 20px;
+    color:darkgrey;
+}
+.loginbox a:hover{
+    color: #ffc107;
 }
