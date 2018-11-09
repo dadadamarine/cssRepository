@@ -1,0 +1,25 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: "Montserrat", sans-serif;
+    background: #333;
+}
+h1{
+    margin:0;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+
+    font-size:200px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 20px;
+    background:url(img.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    -webkit-text-fill-color: transparent;
+    /* 익스플로러는 지원 x */
+    -webkit-background-clip: text;
+
+}
